@@ -71,6 +71,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.hero)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Exit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemy)).BeginInit();
@@ -79,9 +80,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(814, 12);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(221, 191);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(250, 124);
             this.button1.TabIndex = 0;
             this.button1.Text = "Start";
             this.button1.UseVisualStyleBackColor = true;
@@ -107,7 +109,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.HotTrack;
             this.label1.Location = new System.Drawing.Point(1, -4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(773, 23);
+            this.label1.Size = new System.Drawing.Size(697, 23);
             this.label1.TabIndex = 2;
             this.label1.Tag = "wall";
             this.label1.Visible = false;
@@ -115,9 +117,9 @@
             // label2
             // 
             this.label2.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.label2.Location = new System.Drawing.Point(1, 504);
+            this.label2.Location = new System.Drawing.Point(1, 529);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(773, 23);
+            this.label2.Size = new System.Drawing.Size(697, 23);
             this.label2.TabIndex = 3;
             this.label2.Tag = "wall";
             this.label2.Visible = false;
@@ -125,9 +127,9 @@
             // label3
             // 
             this.label3.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.label3.Location = new System.Drawing.Point(751, 9);
+            this.label3.Location = new System.Drawing.Point(675, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(23, 506);
+            this.label3.Size = new System.Drawing.Size(23, 532);
             this.label3.TabIndex = 4;
             this.label3.Tag = "wall";
             this.label3.Visible = false;
@@ -137,7 +139,7 @@
             this.label4.BackColor = System.Drawing.SystemColors.HotTrack;
             this.label4.Location = new System.Drawing.Point(1, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(23, 506);
+            this.label4.Size = new System.Drawing.Size(23, 532);
             this.label4.TabIndex = 5;
             this.label4.Tag = "wall";
             this.label4.Visible = false;
@@ -145,7 +147,7 @@
             // Exit
             // 
             this.Exit.Image = ((System.Drawing.Image)(resources.GetObject("Exit.Image")));
-            this.Exit.Location = new System.Drawing.Point(662, 22);
+            this.Exit.Location = new System.Drawing.Point(586, 22);
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(83, 82);
             this.Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -157,9 +159,9 @@
             // enemy
             // 
             this.enemy.Image = ((System.Drawing.Image)(resources.GetObject("enemy.Image")));
-            this.enemy.Location = new System.Drawing.Point(700, 325);
+            this.enemy.Location = new System.Drawing.Point(613, 339);
             this.enemy.Name = "enemy";
-            this.enemy.Size = new System.Drawing.Size(45, 45);
+            this.enemy.Size = new System.Drawing.Size(45, 48);
             this.enemy.TabIndex = 7;
             this.enemy.TabStop = false;
             this.enemy.Tag = "enemy";
@@ -168,7 +170,7 @@
             // label5
             // 
             this.label5.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.label5.Location = new System.Drawing.Point(12, 373);
+            this.label5.Location = new System.Drawing.Point(12, 390);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(270, 23);
             this.label5.TabIndex = 8;
@@ -178,9 +180,9 @@
             // label6
             // 
             this.label6.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.label6.Location = new System.Drawing.Point(493, 373);
+            this.label6.Location = new System.Drawing.Point(423, 390);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(270, 23);
+            this.label6.Size = new System.Drawing.Size(275, 23);
             this.label6.TabIndex = 9;
             this.label6.Tag = "wall";
             this.label6.Visible = false;
@@ -188,7 +190,7 @@
             // label7
             // 
             this.label7.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.label7.Location = new System.Drawing.Point(12, 239);
+            this.label7.Location = new System.Drawing.Point(12, 253);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(270, 23);
             this.label7.TabIndex = 10;
@@ -198,9 +200,9 @@
             // label8
             // 
             this.label8.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.label8.Location = new System.Drawing.Point(493, 239);
+            this.label8.Location = new System.Drawing.Point(493, 253);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(270, 23);
+            this.label8.Size = new System.Drawing.Size(205, 23);
             this.label8.TabIndex = 11;
             this.label8.Tag = "wall";
             this.label8.Visible = false;
@@ -220,7 +222,7 @@
             this.label10.BackColor = System.Drawing.SystemColors.HotTrack;
             this.label10.Location = new System.Drawing.Point(493, 107);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(270, 23);
+            this.label10.Size = new System.Drawing.Size(205, 23);
             this.label10.TabIndex = 13;
             this.label10.Tag = "wall";
             this.label10.Visible = false;
@@ -238,7 +240,7 @@
             // door3
             // 
             this.door3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.door3.Location = new System.Drawing.Point(278, 239);
+            this.door3.Location = new System.Drawing.Point(278, 253);
             this.door3.Name = "door3";
             this.door3.Size = new System.Drawing.Size(217, 23);
             this.door3.TabIndex = 15;
@@ -248,9 +250,9 @@
             // door1
             // 
             this.door1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.door1.Location = new System.Drawing.Point(278, 373);
+            this.door1.Location = new System.Drawing.Point(278, 390);
             this.door1.Name = "door1";
-            this.door1.Size = new System.Drawing.Size(217, 23);
+            this.door1.Size = new System.Drawing.Size(147, 23);
             this.door1.TabIndex = 16;
             this.door1.Tag = "Door";
             this.door1.Visible = false;
@@ -259,20 +261,21 @@
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label14.Location = new System.Drawing.Point(496, 400);
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label14.Location = new System.Drawing.Point(427, 428);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(129, 13);
+            this.label14.Size = new System.Drawing.Size(150, 15);
             this.label14.TabIndex = 17;
             this.label14.Tag = "walls";
-            this.label14.Text = "WHO LET\'S THE DOG O";
+            this.label14.Text = "WHO  LET\'S  THE  DOG O";
             this.label14.Visible = false;
             // 
             // door2
             // 
             this.door2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.door2.Location = new System.Drawing.Point(496, 253);
+            this.door2.Location = new System.Drawing.Point(470, 254);
             this.door2.Name = "door2";
-            this.door2.Size = new System.Drawing.Size(25, 120);
+            this.door2.Size = new System.Drawing.Size(25, 137);
             this.door2.TabIndex = 18;
             this.door2.Tag = "Door";
             this.door2.Visible = false;
@@ -280,8 +283,8 @@
             // U
             // 
             this.U.AutoSize = true;
-            this.U.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.U.Location = new System.Drawing.Point(506, 479);
+            this.U.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.U.Location = new System.Drawing.Point(516, 479);
             this.U.Name = "U";
             this.U.Size = new System.Drawing.Size(15, 13);
             this.U.TabIndex = 19;
@@ -291,8 +294,9 @@
             // 
             // U_
             // 
-            this.U_.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.U_.Location = new System.Drawing.Point(638, 400);
+            this.U_.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.U_.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.U_.Location = new System.Drawing.Point(583, 430);
             this.U_.Name = "U_";
             this.U_.Size = new System.Drawing.Size(15, 13);
             this.U_.TabIndex = 20;
@@ -301,8 +305,9 @@
             // 
             // T_
             // 
-            this.T_.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.T_.Location = new System.Drawing.Point(670, 400);
+            this.T_.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.T_.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.T_.Location = new System.Drawing.Point(610, 430);
             this.T_.Name = "T_";
             this.T_.Size = new System.Drawing.Size(15, 13);
             this.T_.TabIndex = 21;
@@ -313,9 +318,10 @@
             // 
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label16.Location = new System.Drawing.Point(708, 400);
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label16.Location = new System.Drawing.Point(644, 428);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(13, 13);
+            this.label16.Size = new System.Drawing.Size(14, 15);
             this.label16.TabIndex = 22;
             this.label16.Tag = "walls";
             this.label16.Text = "?";
@@ -324,8 +330,8 @@
             // T
             // 
             this.T.AutoSize = true;
-            this.T.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.T.Location = new System.Drawing.Point(218, 479);
+            this.T.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.T.Location = new System.Drawing.Point(200, 479);
             this.T.Name = "T";
             this.T.Size = new System.Drawing.Size(14, 13);
             this.T.TabIndex = 23;
@@ -335,7 +341,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(781, 349);
+            this.button2.Location = new System.Drawing.Point(707, 344);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(50, 47);
             this.button2.TabIndex = 24;
@@ -345,7 +351,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(839, 349);
+            this.button3.Location = new System.Drawing.Point(707, 400);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(50, 47);
             this.button3.TabIndex = 25;
@@ -356,7 +362,7 @@
             // enemy2
             // 
             this.enemy2.Image = ((System.Drawing.Image)(resources.GetObject("enemy2.Image")));
-            this.enemy2.Location = new System.Drawing.Point(700, 191);
+            this.enemy2.Location = new System.Drawing.Point(613, 205);
             this.enemy2.Name = "enemy2";
             this.enemy2.Size = new System.Drawing.Size(45, 45);
             this.enemy2.TabIndex = 26;
@@ -368,18 +374,20 @@
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label11.Location = new System.Drawing.Point(527, 271);
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label11.Location = new System.Drawing.Point(508, 286);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(68, 13);
+            this.label11.Size = new System.Drawing.Size(69, 15);
             this.label11.TabIndex = 27;
             this.label11.Tag = "walls";
-            this.label11.Text = "HEAR IS HE";
+            this.label11.Text = "CAT  IS  HE";
             this.label11.Visible = false;
             // 
             // R_
             // 
-            this.R_.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.R_.Location = new System.Drawing.Point(610, 271);
+            this.R_.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.R_.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.R_.Location = new System.Drawing.Point(583, 286);
             this.R_.Name = "R_";
             this.R_.Size = new System.Drawing.Size(15, 13);
             this.R_.TabIndex = 28;
@@ -389,8 +397,8 @@
             // R
             // 
             this.R.AutoSize = true;
-            this.R.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.R.Location = new System.Drawing.Point(218, 344);
+            this.R.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.R.Location = new System.Drawing.Point(200, 344);
             this.R.Name = "R";
             this.R.Size = new System.Drawing.Size(15, 13);
             this.R.TabIndex = 29;
@@ -400,8 +408,9 @@
             // 
             // E_
             // 
-            this.E_.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.E_.Location = new System.Drawing.Point(638, 271);
+            this.E_.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.E_.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.E_.Location = new System.Drawing.Point(610, 286);
             this.E_.Name = "E_";
             this.E_.Size = new System.Drawing.Size(15, 13);
             this.E_.TabIndex = 30;
@@ -412,7 +421,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label12.Location = new System.Drawing.Point(675, 271);
+            this.label12.Location = new System.Drawing.Point(644, 286);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(10, 13);
             this.label12.TabIndex = 31;
@@ -423,8 +432,8 @@
             // E
             // 
             this.E.AutoSize = true;
-            this.E.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.E.Location = new System.Drawing.Point(539, 344);
+            this.E.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.E.Location = new System.Drawing.Point(516, 339);
             this.E.Name = "E";
             this.E.Size = new System.Drawing.Size(14, 13);
             this.E.TabIndex = 32;
@@ -435,8 +444,8 @@
             // G
             // 
             this.G.AutoSize = true;
-            this.G.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.G.Location = new System.Drawing.Point(218, 206);
+            this.G.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.G.Location = new System.Drawing.Point(200, 205);
             this.G.Name = "G";
             this.G.Size = new System.Drawing.Size(15, 13);
             this.G.TabIndex = 33;
@@ -447,7 +456,7 @@
             // O
             // 
             this.O.AutoSize = true;
-            this.O.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.O.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.O.Location = new System.Drawing.Point(515, 206);
             this.O.Name = "O";
             this.O.Size = new System.Drawing.Size(15, 13);
@@ -458,8 +467,9 @@
             // 
             // G_
             // 
-            this.G_.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.G_.Location = new System.Drawing.Point(538, 139);
+            this.G_.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.G_.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.G_.Location = new System.Drawing.Point(506, 139);
             this.G_.Name = "G_";
             this.G_.Size = new System.Drawing.Size(15, 13);
             this.G_.TabIndex = 35;
@@ -468,8 +478,9 @@
             // 
             // O_
             // 
-            this.O_.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.O_.Location = new System.Drawing.Point(580, 139);
+            this.O_.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.O_.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.O_.Location = new System.Drawing.Point(562, 139);
             this.O_.Name = "O_";
             this.O_.Size = new System.Drawing.Size(15, 13);
             this.O_.TabIndex = 36;
@@ -480,7 +491,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label13.Location = new System.Drawing.Point(615, 139);
+            this.label13.Location = new System.Drawing.Point(604, 141);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(10, 13);
             this.label13.TabIndex = 37;
@@ -492,7 +503,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label15.Location = new System.Drawing.Point(643, 139);
+            this.label15.Location = new System.Drawing.Point(628, 141);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(10, 13);
             this.label15.TabIndex = 38;
@@ -504,7 +515,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label17.Location = new System.Drawing.Point(670, 139);
+            this.label17.Location = new System.Drawing.Point(649, 141);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(10, 13);
             this.label17.TabIndex = 39;
@@ -512,12 +523,23 @@
             this.label17.Text = "!";
             this.label17.Visible = false;
             // 
+            // label18
+            // 
+            this.label18.Enabled = false;
+            this.label18.Location = new System.Drawing.Point(704, 259);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(79, 82);
+            this.label18.TabIndex = 40;
+            this.label18.Text = "Нажми мышью чтобы попробовать вставить букву";
+            this.label18.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(901, 524);
+            this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label13);
@@ -558,8 +580,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.hero);
             this.Controls.Add(this.button1);
+            this.MaximumSize = new System.Drawing.Size(800, 600);
+            this.MinimumSize = new System.Drawing.Size(800, 600);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.hero)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemy)).EndInit();
@@ -612,6 +636,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
     }
 }
 
